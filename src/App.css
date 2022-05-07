@@ -1,5 +1,29 @@
 .App {
-  text-align: center;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.ListCard {
+  padding: 10px;
+  font-size: 25px;
+}
+
+.List {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.TodoForm input {
+  font-size: 30px;
+  padding: 5px;
+}
+
+.TodoForm button {
+  font-size: 20px;
+  padding: 5px 10px;
+  margin-top: 10px;
 }
 
 .App-logo {
@@ -35,4 +59,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Completed {
+  text-decoration: line-through;
 }
