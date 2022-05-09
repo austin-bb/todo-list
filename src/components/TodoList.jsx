@@ -7,6 +7,9 @@ const TodoList = (props) => {
 
   const handleNewTodo = (e) => {
     e.preventDefault();
+    if (newTodo.length === 0){
+      return;
+    }
 
     const todoItem = {
       text: newTodo,

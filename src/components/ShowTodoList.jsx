@@ -28,6 +28,8 @@ const ShowTodoList = () => {
 
   return (
     <div className='ListCard'>
+      <h1 style={{ fontSize: 60, textAlign: 'center'}}>Todo List</h1>
+
       <TodoList todos = { todos } setTodos = { setTodos }/>
 
       <div className='ListItems'>
